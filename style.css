@@ -1,0 +1,638 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    color: white;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.wrapper {
+    background-color: rgb(14, 8, 8);
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+input[type=text] {
+    height: 30px;
+    padding-left: 29px;
+    font-size: 1.0rem;
+    background-color: #138D75;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.ser {
+    position: relative;
+    left: 9%;
+}
+
+.siri {
+    position: relative;
+    right: 9%;
+}
+
+.header {
+    background-color: rgb(14, 8, 8);
+    height: 60px;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    /* padding-top: 10px; */
+    padding-bottom: 10px;
+    gap: 15px;
+    z-index: 1;
+}
+
+.box {
+    /* border: 1px solid black; */
+    padding-top: 15px;
+    /* padding-left: 10px; */
+    padding-right: 10px;
+}
+
+.box1 {
+    padding-top: 12px;
+    font-size: 1.4rem;
+}
+
+.imo {
+    height: 50px;
+    width: 70px;
+    background-image: url(spotify.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box2 {
+    flex-grow: 1;
+}
+
+.box5 {
+    background-image: url(https://st3.depositphotos.com/1017228/18878/i/600/depositphotos_188781580-stock-photo-handsome-cheerful-young-man-standing.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    padding-top: 0px;
+}
+
+.main {
+    border: 2px solid rgb(78, 56, 78);
+    margin-top: 60px;
+    padding-bottom: 20px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main1 {
+    /* border:1px solid blue; */
+    width: 67%;
+    height: 100%;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
+    float: right;
+    overflow-y: scroll;
+}
+
+.vl {
+    margin-top: 15px;
+    border-left: 2px solid rgb(78, 56, 78);
+    height: 89rem;
+}
+
+.main2 {
+    height: 100%;
+    width: 30%;
+    padding-left: 15px;
+    position: fixed;
+    right: 0%;
+    overflow-y: auto;
+}
+
+.trailor {
+    display: flex;
+    /* gap:10px; */
+    justify-content: space-between;
+}
+
+.tr {
+    /* border: 2px solid brown; */
+    height: 200px;
+    width: 32%;
+}
+
+.tr:hover {
+    transform: scale(1.1);
+}
+
+.tr1 {
+    background-image: url(https://i.scdn.co/image/ab67706f00000002d647d38c51bddda9d3d6c4eb);
+    background-size: cover;
+}
+
+.tr2 {
+    background-image: url(https://i.scdn.co/image/ab67616d0000b273e321db0e39ea3d02ef944f5e);
+    background-size: cover;
+}
+
+.tr3 {
+    background-image: url(https://images.unsplash.com/photo-1578946956849-3b335519f039?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZWRtfGVufDB8fDB8fHww&w=1000&q=80);
+    background-size: cover;
+}
+
+.re {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.la {
+    width: 47%;
+    height: 100px;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.la:hover .pla {
+    filter: grayscale(100%);
+    opacity: 1;
+}
+
+.imr1 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.pla {
+    position: relative;
+    right: 47%;
+    opacity: 0;
+}
+
+.imr11 {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.end {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+}
+
+.popular {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 1.9rem;
+    margin-top: 30px;
+}
+
+.popu {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: ; */
+}
+
+.p1 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTla-_inlpb0FjCVCUYgEDGk5vY7Vi8SABH-Q&usqp=CAU);
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.p2 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt6__SzooiuUOTLGu7TbrfFuAXxFlyAR5b9A&usqp=CAU);
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.p3 {
+    background-image: url(https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_auto,w_1400/fl_lossy,pg_1/lx8od0ahafpsvdo6tjsx/shakira?fimg-ssr-default);
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.p4 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuGQUlIsTy0wqsHgCZSq8QuKn7y4ekeyJ-zw&usqp=CAU);
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.p5 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMzpzFyh4JwnSL6tMisw1m0YpztnDAHoB3cg&usqp=CAU);
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.p6 {
+    background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSJS5J8PDWGluIGYRgwruIxvm8zdqpHPQw5veEIaxj7H0P7uEW2);
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.p11 {
+    padding-left: 25px;
+}
+
+.p12 {
+    padding-left: 25px;
+}
+
+.p13 {
+    padding-left: 40px;
+}
+
+.p14 {
+    padding-left: 25px;
+}
+
+.p15 {
+    padding-left: 36px;
+}
+
+.p16 {
+    padding-left: 40px;
+}
+
+.mode {
+    background-color: rgb(26, 26, 44);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    margin-top: 20px;
+    /* position:static; */
+}
+
+.mode1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.extra1 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5VKGz3BBn1UNrzw9H3Z0NZ7WvyYUNTbAMSoTsmxmSvNLebeLSci_DGQUWIyP7a6hgtZU&usqp=CAU);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    filter: brightness(50%);
+    z-index: -1;
+}
+
+.extra2 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz8ho8rZHJcIuqpTX-tI5rneIk14AOy2PKuw&usqp=CAU);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    filter: brightness(40%);
+}
+
+.extra3 {
+    background-image: url(https://a10.gaanacdn.com/gn_pl_img/playlists/JD2KJyAbOL/D2KJ5xQmbO/size_m_1625128911.webp);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    filter: brightness(40%);
+}
+
+.extra4 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrjZpupwoVV4KLkinFFIpHwjhwJqxmLTbTSw&usqp=CAU);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    filter: brightness(40%);
+}
+
+.extra5 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuFQ0v_6JEQwUOKPZeqj3h_eCbyWTyPOpVbA&usqp=CAU);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    filter: brightness(40%);
+}
+
+.extra6 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ3r_2vANEja-kyzflPYhWOW3NExU0_P1kcQmD_PrJmen_29QQEMMPSNqGcMRNZfxS9lQ&usqp=CAU);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    filter: brightness(40%);
+}
+
+.extra7 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmUwe6Ojsl4noiBkOaJ8hqxXBEdvchmv72HA&usqp=CAU);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    filter: brightness(40%);
+    background-size: cover;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.eng {
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.eng1 {
+    height: 100%;
+    width: 100%;
+}
+
+.ima1 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSafwGF42O-HKiuP7QDffwYY_0VEP0Tu72BRA&usqp=CAU);
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.ima2 {
+    background-image: url(https://c.saavncdn.com/798/Faded-English-2017-500x500.jpg);
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.ima3 {
+    background-image: url(https://m.media-amazon.com/images/M/MV5BY2VhMDE4MDItOWRhNy00YzJkLTg2ZjgtMzY0N2Q4ZDY1ODdiXkEyXkFqcGdeQXVyNDE4OTY5NzI@._V1_.jpg);
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.ima4 {
+    background-image: url(https://wallpapercave.com/wp/wp4606692.jpg);
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.ima5 {
+    background-image: url(https://www.rollingstone.com/wp-content/uploads/2019/11/HarryStyles-1.jpg);
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.ima6 {
+    background-image: url(https://i.ytimg.com/vi/1mAgelsVrHs/hqdefault.jpg);
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.ima7 {
+    background-image: url(https://i.ytimg.com/vi/hEq3vHsFYBk/maxresdefault.jpg);
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.image1 {
+    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEg0RaZCkiRropeeveUzpjLq5VpKu6z6g0CGJGrdEDfnZt00dROaREpp13JpKSgQQGOBqZ9lSVcG0ofuAVvOZ8VrTQbsRwKtcloB59OD7gG7vXXGO4wh4HmoYaYOz22stmQiCrF_SUN728aZ2mR_dxOpt4mYWUVlsdib-e0UosA4ORZY9wIJMjqwaaOXig=w640-h350);
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.image2 {
+    background-image: url(https://i.ytimg.com/vi/BF2EMEoq27U/maxresdefault.jpg);
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.image3 {
+    background-image: url(https://i.scdn.co/image/ab67616d00001e024961b347ea435f80f744fc32);
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.image4 {
+    background-image: url(https://i.ytimg.com/vi/7UslTkBHTtw/maxresdefault.jpg);
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.image5 {
+    background-image: url(https://i.ytimg.com/vi/2n3iW1V-wIE/maxresdefault.jpg;);
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.image6 {
+    background-image: url(https://i.scdn.co/image/ab67616d0000b273a67a4fd24fca487793f6bbe8);
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.image7 {
+    background-image: url(https://i.ytimg.com/vi/qk2WMmiiVFE/maxresdefault.jpg);
+    background-size: cover;
+    height: 130px;
+    width: 130px;
+}
+
+.eng1:hover {
+    filter: brightness(60%);
+}
+
+.main2header {
+    display: flex;
+    width: 100%;
+    height: 4%;
+    justify-content: space-between;
+}
+
+.que1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-right: 10%;
+}
+
+.list {
+    margin: 29px;
+    padding-right: 19px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20%;
+}
+
+.boxes {
+    display: flex;
+    width: 90%;
+    gap: 15px;
+}
+
+.text {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.song {
+    flex-grow: 1;
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    gap: 15px;
+}
+
+.photo1 {
+    background-image: url(https://i.ytimg.com/vi/1rjwAQcBBbg/maxresdefault.jpg);
+    background-size: cover;
+    height: 66px;
+    background-position: center;
+    width: 25%;
+}
+
+.photo2 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTISBqCyd5eNjNIZCSpOy3OQ4b5tBzrIunHEA&usqp=CAU);
+    background-size: cover;
+    height: 66px;
+
+    width: 25%;
+}
+
+.photo3 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/0/08/Wiz_Khalifa_Feat._Charlie_Puth_-_See_You_Again_%28Official_Single_Cover%29.png);
+    background-size: cover;
+    height: 66px;
+
+    width: 25%;
+}
+
+.photo4 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWWaeM46uVJWvNA-8N-yIQdpg2YzqtM_M9wQ&usqp=CAU);
+    background-size: cover;
+    height: 66px;
+
+    width: 25%;
+}
+
+.photo5 {
+    background-image: url(https://i.ytimg.com/vi/Jms3FCuuIos/maxresdefault.jpg);
+    background-size: cover;
+    height: 66px;
+
+    width: 25%;
+}
+
+.photo6 {
+    background-image: url(https://i.ytimg.com/vi/Ug6HES8QTTc/maxresdefault.jpg);
+    background-size: cover;
+    height: 66px;
+
+    width: 25%;
+}
+
+.photo7 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvT5miKIPWcHqB7lzpsj6cOaYFnBosMUMd4Q&usqp=CAU);
+    background-size: cover;
+    height: 66px;
+
+    width: 25%;
+}
+
+.photo8 {
+    background-image: url(https://i.ytimg.com/vi/j3cYLcE9ICg/maxresdefault.jpg);
+    background-size: cover;
+    height: 66px;
+
+    width: 25%;
+}
+
+.figu {
+    flex-grow: 1;
+    padding: 15px;
+    font-size: medium;
+}
+
+.heart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.que1 {
+    color: rgb(36, 226, 226);
+    font-size: 1.1rem;
+    padding-right: 10px;
+}
+
+.que {
+    display: flex;
+    position: relative;
+}
